@@ -21,6 +21,7 @@ Projeto criado com muito carinho por Grazzielly ✨
 Feito para deixar o seu mundo digital mais doce 💕
 
 📸 Preview
+https://ellypereira.github.io/Projetos/layout/
 ![alt text](image.png)
 
 📃 Licença
