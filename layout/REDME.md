@@ -16,3 +16,12 @@ Uma página de login responsiva, com animação de fundo e visual adorável — 
 
 ## 📂 Estrutura do Projeto
 
+🧸 Créditos
+Projeto criado com muito carinho por Grazzielly ✨
+Feito para deixar o seu mundo digital mais doce 💕
+
+📸 Preview
+![alt text](image.png)
+
+📃 Licença
+Este projeto é livre para uso pessoal ou comercial. Personalize à vontade!
