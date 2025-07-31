@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem-vindo | Agendamento SUS</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Olá, bem-vindo ao sistema de agendamento do SUS.</h2>
+
+        <button onclick="window.location.href='agendar.html'">📅 Agendar Consulta</button>
+
+        <h3>Seus Agendamentos:</h3>
+        <ul id="agendamentos-list">
+            <!--LISTA VAI SER PREENCHIDA COM JS-->
+        </ul>
+
+        <button onclick="logout()" style="margin-top: 20px; background: #f44336;">Sair</button>
+    </div>
+
+    <script src="js/agendamento.js"></script>
+</body>
+</html>

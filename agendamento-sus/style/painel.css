@@ -1,0 +1,161 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #e3f2fd, #f1f8e9);
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 2rem;
+}
+
+/* Container geral */
+.painel-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 900px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Cabeçalho */
+.painel-header {
+  background-color: #1976d2;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  border-bottom: 4px solid #1565c0;
+}
+
+/* Filtros */
+.painel-filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #f5f5f5;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filtro-grupo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-width: 160px;
+}
+
+.filtro-grupo label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+.filtro-grupo input,
+.filtro-grupo select {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+/* Botões de filtro */
+.filtro-botoes {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.7rem 1.3rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-weight: 600;
+}
+
+.btn-filtrar {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn-filtrar:hover {
+  background-color: #388e3c;
+}
+
+.btn-limpar {
+  background-color: #e53935;
+  color: white;
+}
+
+.btn-limpar:hover {
+  background-color: #c62828;
+}
+
+/* Lista de agendamentos */
+.painel-conteudo {
+  padding: 1.5rem;
+}
+
+.painel-conteudo h2 {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: #1976d2;
+}
+
+.lista-agendamentos {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.lista-agendamentos li {
+  padding: 1rem;
+  background-color: #e3f2fd;
+  border-left: 6px solid #1976d2;
+  border-radius: 8px;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+/* Rodapé */
+.painel-footer {
+  text-align: center;
+  padding: 1rem 1.5rem 2rem;
+  background-color: #fafafa;
+}
+
+.btn-voltar {
+  background-color: #607d8b;
+  color: white;
+}
+
+.btn-voltar:hover {
+  background-color: #455a64;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .painel-filtros {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .filtro-botoes {
+    justify-content: stretch;
+  }
+}

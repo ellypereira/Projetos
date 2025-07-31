@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Painel do Médico</title>
+  <link rel="stylesheet" href="style/painel.css" />
+</head>
+<body>
+  <div class="painel-container">
+    <header class="painel-header">
+      <h1>🩺 Painel do Médico</h1>
+    </header>
+
+    <section class="painel-filtros">
+      <div class="filtro-grupo">
+        <label for="filtro-medico">👨‍⚕️ Médico:</label>
+        <select id="filtro-medico">
+          <option value="">Todos</option>
+        </select>
+      </div>
+
+      <div class="filtro-grupo">
+        <label for="filtro-data">📅 Data:</label>
+        <input type="date" id="filtro-data" />
+      </div>
+
+      <div class="filtro-botoes">
+        <button class="btn btn-filtrar" onclick="filtrar()">🔍 Filtrar</button>
+        <button class="btn btn-limpar" onclick="limparFiltros()">🔄 Limpar</button>
+      </div>
+    </section>
+
+    <main class="painel-conteudo">
+      <h2>📋 Lista de Agendamentos</h2>
+      <ul id="lista-agendamentos" class="lista-agendamentos">
+        <!-- Gerado dinamicamente pelo JS -->
+      </ul>
+    </main>
+
+    <footer class="painel-footer">
+      <button class="btn btn-voltar" onclick="window.location.href='index.html'">← Voltar ao Início</button>
+    </footer>
+  </div>
+
+  <script src="js/medicos.js"></script>
+  <script src="js/painel.js"></script>
+</body>
+</html>
