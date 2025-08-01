@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bem-vindo | Agendamento SUS</title>
     <link rel="stylesheet" href="style/main.css">
+        <link rel="shortcut icon" href="/agendamento-sus/assets/favicon.ico" type="image/x-icon">
+
 </head>
 <body>
     <div class="container">
@@ -12,14 +14,17 @@
 
         <button onclick="window.location.href='agendar.html'">📅 Agendar Consulta</button>
 
+        <div id="lista-agendamentos" class="agendamentos-box">
         <h3>Seus Agendamentos:</h3>
         <ul id="agendamentos-list">
             <!--LISTA VAI SER PREENCHIDA COM JS-->
         </ul>
+        </div>
 
         <button onclick="logout()" style="margin-top: 20px; background: #f44336;">Sair</button>
     </div>
-
+    <script src="js/home.js"></script>
     <script src="js/agendamento.js"></script>
+
 </body>
 </html>

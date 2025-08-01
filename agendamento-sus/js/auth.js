@@ -15,8 +15,24 @@ function register() {
         return;
     }
 
-    const user = { name, email, password };
-    localStorage.setItem("user", JSON.stringify(user));
+    //Busca ususiarios ja cadastrados
+    let users = JSON.parse(localStorage.getItem("users")) || [];
+
+    //verifica se ja existe um usuario com mesmo e-mail
+    const existingUser = users.find(user => user.email === email);
+    
+    if (existingUser) {
+        alert("Este e-mail já está cadastrado!");
+        return;
+    }
+
+    //Cria novo usuario e salva no array
+    const newUser = {name, email, password};
+    users.push(newUser);
+
+        // Salva no localStorage
+    localStorage.setItem("users", JSON.stringify(users));
+
     alert("Cadastro realizado com sucesso!");
     toggleForm();
 }
@@ -25,9 +41,13 @@ function login() {
     const email = document.getElementById("login-email").value.trim();
     const password = document.getElementById("login-password").value;
 
-    const user = JSON.parse(localStorage.getItem("user"));
+    // Busca todos os usuários
+    const users = JSON.parse(localStorage.getItem("users")) || [];
 
-    if (!user || user.email !== email || user.password !== password) {
+    // Procura o usuário com e-mail e senha
+    const user = users.find(u => u.email === email && u.password === password);
+
+    if (!user) {
         alert("Email ou senha inválidos!");
         return;
     }
