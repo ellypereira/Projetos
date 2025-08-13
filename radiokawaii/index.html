@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RadioKawaii FM</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -18,8 +19,7 @@
             <h2>📻 Agora Tocando: </h2>
             <p id="current-song">Conectando à rádio...</p>
             <!-- Simulação de player (substituir com real depois)-->>
-             <audio  controls autoplay>
-                <source src="#" type="audio/mpeg">
+             <audio id="player" controls autoplay>
                 Seu navegador não suporta o player de áudio.
              </audio>
         </div>
@@ -28,5 +28,6 @@
     <footer>
         <p>Feito com amor 💕 por você | © 2025</p>
     </footer>
+    <script src="radio.js"></script>
 </body>
 </html>
