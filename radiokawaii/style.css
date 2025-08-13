@@ -1,0 +1,58 @@
+/* Reset simples*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Sans MS', 'Nunito', sans-serif;
+    background: #ffe6f0;
+    color: #4b2e2e;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background: #ffd1dc;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.mascot {
+    position: absolute;
+    top: -30px;
+    left: 20px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+main .player-box {
+    background: #fff0f5;
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+audio {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #6b4c4c;
+}
