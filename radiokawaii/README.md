@@ -9,6 +9,8 @@ Bem-vindo à **RadioKawaii FM**, um projeto fofo de rádio online voltado para m
 ## 🎧 Sobre o projeto
 
 A RadioKawaii FM será, em breve, uma **rádio online 24/7**, transmitida diretamente do navegador, com playlists temáticas, auto-DJ e integração ao site oficial. Tudo no estilo mais **kawaii possível**!
+📦 Planejamento futuro
+🎙️ Streaming real com AzuraCast
 
 👷 **Status atual:**  
 Este é um **protótipo em fase de testes**.  
@@ -21,3 +23,6 @@ No momento, o player simula uma rádio com **3 músicas locais**, apenas para de
 - Player de áudio funcional com autoplay e loop
 - Visual kawaii adaptado para navegador
 - Total de **3 faixas de teste** na pasta `/musicas`
+
+📅 Versão de teste – Agosto de 2025
+🎀 Site kawaii em construção…
