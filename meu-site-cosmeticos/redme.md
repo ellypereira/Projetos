@@ -1,31 +1,38 @@
-# 🌸 Flor de Pele Cosméticos
+# 🛍️ Loja Online - Projeto Front-End
 
-Um site de cosméticos bonito e fofo, feito com HTML, CSS e JavaScript puro. Ideal para marcas que valorizam estética suave, produtos naturais e uma experiência encantadora para o cliente.
+Este é um projeto de **Loja Online Simples**, desenvolvido em **HTML, CSS e JavaScript**, com sistema de **carrinho de compras** funcional.  
+O usuário pode adicionar produtos, remover, alterar quantidades e aplicar um cupom de desconto de boas-vindas.
 
-## ✨ Funcionalidades
+---
 
-- 💖 Banner promocional com cupom de boas-vindas
-- 💅 Estilo leve, feminino e moderno
-- 📱 Design responsivo (funciona bem em celular)
-- 🔘 Menu
-- 🌿 Estrutura pensada para lojas de beleza e autocuidado
+## 🚀 Funcionalidades
 
-## 🛠️ Tecnologias utilizadas
+- 📱 **Layout Responsivo** (funciona em celulares e desktops).  
+- 🛒 **Carrinho de Compras Dinâmico**:
+  - Adicionar produtos.
+  - Remover produtos.
+  - Alterar quantidades.
+- 💰 **Cálculo automático do valor total**.  
+- 🎁 **Cupom de desconto** (`BOASVINDAS10` - 10% OFF).  
+- 🖼️ Interface simples e fácil de navegar.  
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla JS)
 
+---
+
+## 🖥️ Tecnologias Utilizadas
+
+- **HTML5** → Estrutura do site  
+- **CSS3** → Estilização e responsividade  
+- **JavaScript (ES6)** → Lógica do carrinho e interatividade  
+
+---
 ## 📸 Prévia do site
 ![Prévia do site](assets/img1.png)
 ![Prévia do site](assets/img2.png)
+![Prévia do site](assets/img-celular.png)
 
-## 📌 Ideias futuras
+## 📱 Responsividade
 
-- Modal com carrinho de compras
-- Integração com sistema de pagamento
-- Cadastro de newsletter
-- Login de cliente
 
 ## 🧚‍♀️ Créditos e inspiração
 Desenvolvido com carinho por Grazzielly.  
